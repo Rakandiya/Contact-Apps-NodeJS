@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Contact</title>
+  </head>
+  <body>
+    <h1>Add New Contact</h1>
+
+    <form action="/save" method="POST">
+      <table>
+        <tr>
+          <td><label for="nama">Nama</label></td>
+          <td>:</td>
+          <td>
+            <input type="text" id="nama" name="nama" autocomplete="off" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email : </label></td>
+          <td>:</td>
+          <td>
+            <input type="text" id="email" name="email" autocomplete="off" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="noHP">No HP : </label></td>
+          <td>:</td>
+          <td>
+            <input type="text" id="noHP" name="noHP" autocomplete="off" />
+          </td>
+        </tr>
+        <tr>
+          <td><a href="/">Back to List</a></td>
+          <td></td>
+          <td><button type="submit">Save Contact</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
